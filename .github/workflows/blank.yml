@@ -35,7 +35,7 @@ jobs:
 
    SandboxDeployment:
     name: Sandbox environment
-    if: github.event.ref == 'refs/heads/pavandev'
+    if: github.event.ref == 'refs/heads/pavannp'
     needs: Build
     environment:
      name: Sandbox
