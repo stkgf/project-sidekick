@@ -53,7 +53,7 @@ jobs:
     environment:
      name: Production
     steps:
-     - uses: benhamiltonpro/manual-trigger@v1.0.2
+     
      - name: Print statement
        run: echo "This is Production"
       
